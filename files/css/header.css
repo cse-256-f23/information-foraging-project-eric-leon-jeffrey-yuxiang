@@ -148,3 +148,11 @@ header a {
 .dropdown:hover .dropdown-content {
     display: block;
 }
+
+.subsection-title {
+    font-weight: bold;
+    color:white;
+    background-color: #555;
+    font-size: 16px;
+    padding: 12px 16px;
+}
