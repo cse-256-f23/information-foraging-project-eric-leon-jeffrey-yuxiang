@@ -20,3 +20,20 @@ main li {
     list-style-type: disc;
     margin-bottom: 15px;
 }
+
+fieldset {
+    border: 2px solid #ccc;
+    padding: 15px 25px;        
+    margin: 25px 0;           
+    border-radius: 5px; 
+    font-size: 20px;
+}
+
+legend {
+    padding: 0 20px;          
+    font-weight: semibold;                  
+}
+
+.highlight{
+    color: #ff0000;
+}
