@@ -118,7 +118,7 @@
           </button>
           <div class="dropdown-content">
             <a id="forms" href="files/apply.html">Application</a>
-            <a id="forms" href="files/apply.html">Enrollment & Forms</a>
+            <a id="forms" href="files/apply.html" onclick="scrollToEnrollmentForm(); return false;">Enrollment & Forms</a>
           </div>
         </div>
         <!-- <a id="apply" href="files/apply.html">Apply</a>
@@ -139,3 +139,19 @@
     </div>
   </div>
 </header>
+
+<script>
+  function scrollToEnrollmentForm() {
+    window.location.href = 'files/apply.html'; // Navigate to apply.html
+
+    // The following will execute after navigation
+    window.onload = function() {
+        const targetElement = document.getElementById('enrollment-form');
+        if (targetElement) {
+            targetElement.scrollIntoView({
+                behavior: 'smooth'
+            });
+        }
+    }
+  }
+</script>
