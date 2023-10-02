@@ -68,10 +68,10 @@
 
         <div class="dropdown">
           <button class="dropbtn">
-            <a id="curriculum-overview" href="files/classrooms.html">Curriculum</a>
+            <a id="curriculum-overview" href="files/curriculum_overview.html">Curriculum</a>
           </button>
           <div class="dropdown-content">
-            <a id="curriculum-overview" href="files/classrooms.html">Classroom Overview</a>
+            <a id="classrooms" href="files/classrooms.html">Classroom Overview</a>
             <div class="subsection-title">2.5 - 3 years old</div>
             <a id="teddy-bears" href="files/teddy_bears.html">Teddy Bears (AM)</a>
             <a id="panda-bears" href="files/panda_bears.html">Panda Bears (PM)</a>
@@ -118,7 +118,8 @@
           </button>
           <div class="dropdown-content">
             <a id="forms" href="files/apply.html">Application</a>
-            <a id="forms" href="files/apply.html" onclick="scrollToEnrollmentForm(); return false;">Enrollment & Forms</a>
+            <a id="forms" href="files/apply.html" onclick="scrollToEnrollmentForm(); return false;">Enrollment &
+              Forms</a>
           </div>
         </div>
         <!-- <a id="apply" href="files/apply.html">Apply</a>
@@ -145,13 +146,13 @@
     window.location.href = 'files/apply.html'; // Navigate to apply.html
 
     // The following will execute after navigation
-    window.onload = function() {
-        const targetElement = document.getElementById('enrollment-form');
-        if (targetElement) {
-            targetElement.scrollIntoView({
-                behavior: 'smooth'
-            });
-        }
+    window.onload = function () {
+      const targetElement = document.getElementById('enrollment-form');
+      if (targetElement) {
+        targetElement.scrollIntoView({
+          behavior: 'smooth'
+        });
+      }
     }
   }
 </script>
