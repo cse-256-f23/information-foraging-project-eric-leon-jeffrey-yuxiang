@@ -129,7 +129,8 @@ header a {
 .dropdown-content a {
     float: none;
     color: black;
-    padding: 12px 16px;
+    font-size: 12pt;
+    padding: 8px 8px;
     text-decoration: none;
     display: block;
     text-align: left;
@@ -154,5 +155,5 @@ header a {
     color:white;
     background-color: #555;
     font-size: 16px;
-    padding: 6px 16px;
+    padding: 6px 6px;
 }
